@@ -18,6 +18,22 @@ Các đơn vị đang phổ biến
 
 ### Các loại Filesystem
 
+File system	| Năm giới thiệu	| Kích thước file tối đa	| Kích thước ổ đĩa tối đa	| Block journaling	|Ghi chú |
+--- | --- | --- | ---| --- | --- |
+FAT16	| 1984	|2GB or 4GB	|2GB or 4GB	|Không	|Đã lạc hậu, không nên sử dụng||
+FAT32	|1996	|2GB or 4GB	|2TB or 16TB	|Không	|Đã lạc hậu, không nên sử dụng||
+NTFS (3.1)	|2001	|16EB	|16EB		|Có	|Nên sử dụng, nếu đang chạy Hệ thống Windows||
+EXT2	|1993	|2TB	|32TB	|Không	|Đã lạc hậu không nên sử dụng||
+EXT3	|1999	|2TB	|32TB	|Có	|Đã lạc hậu, không nên sử dụng||
+EXT4	|2006	|16TB	|1EB	|Có	|Nên sử dụng ,nếu đang chạy Hệ thống Linux||
+reiserFS	|2001	|8TB	|16TB	|Có	|Với những File có kích thước dưới 4KB, reiserFS có tốc độ xử lý nhanh hơn (Có thể sử dụng reiserFS cho các hệ thống nơi chú trọng hiệu suất xử lý với các tập tin nhỏ như HTTP Cache)||
+XFS	|1994	|8EB	|8EB	|Có	|Nên sử dụng cho các Hệ thống Server lớn, lên đến hàng trăm TB (Không hỗ trợ để lưu trữ thư mục root hay /boot trong hệ thống Linux)||
+JFS1	|1990	|8EB	|4PB	|Có	|Đã lạc hậu, không nên sử dụng||
+JFS	|1999	|4 PB	|32 PB	|Có	|Không còn được hỗ trợ và duy trì bởi IBM (Thua kém về hiệu năng và độ tin cậy so với EXT4)||
+HFS	|1985	|2GB	|2TB	|Không	|Đã lạc hậu, không nên sử dụng||
+HFS+	|1998	|8EB	|8EB	|Có	|Sử dụng chính trong MacOS||
+
+
 Định dạng  | Kích thước tối đa của file | Kích thước tối đa của Partition | Journaling | Ghi chú |
 --- | --- | --- | ---| --- |
 ext2  |2TiB  |32TiB|Không||
