@@ -36,6 +36,7 @@ Sử dụng hai câu lệnh `du` và `df`
 Xem dung lượng của các file ở thư mục hiện tại và tổng dung lượng hiện tại
 
 `# du -sh *`
+
 <img src="https://github.com/ajino2k/Filesystem/blob/master/0001.png" />
 
 Xem dung lượng của các sub-folder
@@ -53,6 +54,7 @@ Ngoài ra, còn nhiều thuộc tính khác xem thêm bằng câu lệnh
 Xem dung lượng đã sử dung, còn trống,...
 
 `# df -h`
+
 <img src="https://github.com/ajino2k/Filesystem/blob/master/0004.png" />
 `-h` xem dung lượng với đơn vị KiB, GiB,...
 
