@@ -43,7 +43,7 @@ reiserFS|8TiB |16TiB|Có|Hoạt động hiệu quả với các file kích thư�
 JFS  |4PiB  |32PiB|Có (metadata)||
 XFS  |8EiB  |8EiB|Có (metadata)|Hoạt động hiệu quả với các file kích thước lớn. Phù hợp với các mô hình File Server|
 
-###### Note: `Metadata`: là những thuộc tính của file như inodes, ngày tạo,...
+
 ### Xem dung lượng của file, thư mục, ổ đĩa
 Sử dụng hai câu lệnh `du` và `df`
 
