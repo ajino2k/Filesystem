@@ -5,7 +5,7 @@
 -	Nếu file lỗi, file system kiểm tra lại journaling xem lỗi ở đâu, chỗ nào lỗi
 -	Ngược lại, file sẽ được ghi vào ổ cứng và được xóa ở journaling
 
-
+<img src="http://www.howtogeek.com/wp-content/uploads/2010/12/640x250xJournal.png.pagespeed.gp+jp+jw+pj+js+rj+rp+rw+ri+cp+md.ic.4h1Q9x_447.png" />
 
 ### Đơn vị
 Các đơn vị đang phổ biến
@@ -36,13 +36,13 @@ Sử dụng hai câu lệnh `du` và `df`
 Xem dung lượng của các file ở thư mục hiện tại và tổng dung lượng hiện tại
 
 `# du -sh *`
-
+<img src="https://github.com/ajino2k/Filesystem/blob/master/0001.png" />
 
 Xem dung lượng của các sub-folder
 
 `# du -h`
 
-
+<img src="https://github.com/ajino2k/Filesystem/blob/master/0002.png" />
 
 Ngoài ra, còn nhiều thuộc tính khác xem thêm bằng câu lệnh
 
@@ -53,7 +53,7 @@ Ngoài ra, còn nhiều thuộc tính khác xem thêm bằng câu lệnh
 Xem dung lượng đã sử dung, còn trống,...
 
 `# df -h`
-
+<img src="https://github.com/ajino2k/Filesystem/blob/master/0004.png" />
 `-h` xem dung lượng với đơn vị KiB, GiB,...
 
 `-T` Hiển thị Type của filesystem
