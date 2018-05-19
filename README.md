@@ -34,16 +34,6 @@ HFS	|1985	|2GB	|2TB	|Không	|Đã lạc hậu, không nên sử dụng||
 HFS+	|1998	|8EB	|8EB	|Có	|Sử dụng chính trong MacOS||
 
 
-Định dạng  | Kích thước tối đa của file | Kích thước tối đa của Partition | Journaling | Ghi chú |
---- | --- | --- | ---| --- |
-ext2  |2TiB  |32TiB|Không||
-ext3  |2TiB  |32TiB|Có||
-ext4  |16TiB  |1EiB|Có||
-reiserFS|8TiB |16TiB|Có|Hoạt động hiệu quả với các file kích thước nhỏ như Logs, ...|
-JFS  |4PiB  |32PiB|Có (metadata)||
-XFS  |8EiB  |8EiB|Có (metadata)|Hoạt động hiệu quả với các file kích thước lớn. Phù hợp với các mô hình File Server|
-
-
 ### Xem dung lượng của file, thư mục, ổ đĩa
 Sử dụng hai câu lệnh `du` và `df`
 
